@@ -1,0 +1,225 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    /* font-size: 100px; */
+    align-items: center;
+    justify-content: space-between;
+    background-color:#264653;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 100px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 80px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 150px;
+    margin-right: 350px;
+    margin-left: 100px;
+    
+}
+
+
+.hero-text{
+    font-size: 50px;
+    display: flex;
+    max-width: 400px;
+    font-weight: bold;
+    margin-left: 100px;
+
+}
+
+
+.hero-p{
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: wrap;
+    max-width: 500px;
+}
+
+
+.signup{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+
+.placeholder-image{
+    /* margin-right: 40px; */
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: italic; 
+    font-size: 20px;
+    justify-content: center;
+    width: 500px;
+    height: 250px;
+    background-color: #2A9D8F;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.random-info{
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    gap: 50px;
+}
+
+
+.image{
+    width: 200px;
+    height: 200px;
+    background-color: #2A9D8F;
+    color: blue;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+.description{
+    max-width: 200px;
+    margin-left: 15px;
+    margin-top: 20px;
+    /* font-family: Roboto; */
+    font-size: 18px;
+}
+
+.quotation{
+    /* gap: 10px; */
+    margin-top: 30px;
+    background-color: #E9C46A;
+}
+.quote{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left: 100px;
+    font-weight: normal;
+    /* background-color: lightgray; */
+}
+
+
+.quoted{
+    font-size: 30px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    background-color: #E76F51;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-width: 900px;
+    margin:50px;
+    /* flex: 1; */
+    /* max-width: 900px; */
+    /* margin: 30px 150px; */
+    background-color: #023047;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.call-text{
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+}
+
+.left>p{
+    font-size: 18px;
+    color: white;
+}
+
+.call-signup{
+    background-color: #FB8500;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 100px;
+    height: 50px;
+    width: 150px;
+    cursor: pointer;
+}
+
+
+
+/* I know this is inefficient will try to improve from here */
