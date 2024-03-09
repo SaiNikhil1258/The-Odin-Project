@@ -7,7 +7,6 @@ body {
     background-color: yellow;
 }
 .main{
-    background-color: yellow;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -21,11 +20,12 @@ body {
     flex-wrap: wrap;
     margin: 50px auto;
     box-shadow: rgba(0, 0, 0, 1.5) 0px 22px 70px 4px;
+    background-color: white;
 }
 
 .grid-cell  {
     /* background-color: white; */
-    border-radius: 5px;
+    border-radius: 3px;
     border: 0.1px solid  blueviolet ;
 }
 
