@@ -6,6 +6,14 @@
 body {
     background-color: yellow;
 }
+.main{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: 0 auto;
+}
 
 
 #sketch-area {
@@ -15,13 +23,29 @@ body {
     box-shadow: rgba(0, 0, 0, 1.5) 0px 22px 70px 4px;
 }
 
-.grid-cell {
+.grid-cell  {
     /* background-color: white; */
     border-radius: 5px;
     border: 0.1px solid  blueviolet ;
 }
 
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 300px;
+}
 
-
+button {
+    padding: 15px;
+    color: black;
+    font-weight: 800;
+    font-style: 30px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+input {
+    margin-left:10px;
+}
 
 
